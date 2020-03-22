@@ -36,51 +36,52 @@
             this.pictureBoxDie4 = new System.Windows.Forms.PictureBox();
             this.pictureBoxDie5 = new System.Windows.Forms.PictureBox();
             this.groupBoxDice = new System.Windows.Forms.GroupBox();
-            this.groupBoxScore = new System.Windows.Forms.GroupBox();
+            this.labelKeep5 = new System.Windows.Forms.Label();
+            this.labelKeep4 = new System.Windows.Forms.Label();
+            this.labelKeep3 = new System.Windows.Forms.Label();
+            this.labelKeep2 = new System.Windows.Forms.Label();
+            this.labelKeep1 = new System.Windows.Forms.Label();
             this.buttonRoll = new System.Windows.Forms.Button();
+            this.groupBoxScore = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.buttonSetChance = new System.Windows.Forms.Button();
+            this.buttonSetYahtzee = new System.Windows.Forms.Button();
+            this.buttonSetFullHouse = new System.Windows.Forms.Button();
+            this.buttonSetLgStraight = new System.Windows.Forms.Button();
+            this.buttonSetQuad = new System.Windows.Forms.Button();
+            this.buttonSetSmStraight = new System.Windows.Forms.Button();
+            this.buttonSetTrip = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.buttonSetSixes = new System.Windows.Forms.Button();
+            this.buttonSetFives = new System.Windows.Forms.Button();
+            this.buttonSetFours = new System.Windows.Forms.Button();
+            this.buttonSetThrees = new System.Windows.Forms.Button();
+            this.buttonSetTwos = new System.Windows.Forms.Button();
+            this.labelGameTotal = new System.Windows.Forms.Label();
+            this.labelLowerTotal = new System.Windows.Forms.Label();
+            this.labelBonus = new System.Windows.Forms.Label();
+            this.labelUpperTotal = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.buttonSetAces = new System.Windows.Forms.Button();
             this.buttonNewGame = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.labelUpperTotal = new System.Windows.Forms.Label();
-            this.labelBonus = new System.Windows.Forms.Label();
-            this.labelLowerTotal = new System.Windows.Forms.Label();
-            this.labelGameTotal = new System.Windows.Forms.Label();
-            this.labelKeep1 = new System.Windows.Forms.Label();
-            this.labelKeep2 = new System.Windows.Forms.Label();
-            this.labelKeep3 = new System.Windows.Forms.Label();
-            this.labelKeep4 = new System.Windows.Forms.Label();
-            this.labelKeep5 = new System.Windows.Forms.Label();
             this.imageListDice = new System.Windows.Forms.ImageList(this.components);
             this.labelCurrentHand = new System.Windows.Forms.Label();
             this.buttonShowHand = new System.Windows.Forms.Button();
-            this.buttonSetTwos = new System.Windows.Forms.Button();
-            this.buttonSetThrees = new System.Windows.Forms.Button();
-            this.buttonSetFours = new System.Windows.Forms.Button();
-            this.buttonSetFives = new System.Windows.Forms.Button();
-            this.buttonSetSixes = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.buttonSetTrip = new System.Windows.Forms.Button();
-            this.buttonSetSmStraight = new System.Windows.Forms.Button();
-            this.buttonSetQuad = new System.Windows.Forms.Button();
-            this.buttonSetLgStraight = new System.Windows.Forms.Button();
-            this.buttonSetFullHouse = new System.Windows.Forms.Button();
-            this.buttonSetYahtzee = new System.Windows.Forms.Button();
-            this.buttonSetChance = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie3)).BeginInit();
@@ -165,6 +166,66 @@
             this.groupBoxDice.TabIndex = 5;
             this.groupBoxDice.TabStop = false;
             // 
+            // labelKeep5
+            // 
+            this.labelKeep5.AutoSize = true;
+            this.labelKeep5.Location = new System.Drawing.Point(546, 144);
+            this.labelKeep5.Name = "labelKeep5";
+            this.labelKeep5.Size = new System.Drawing.Size(41, 17);
+            this.labelKeep5.TabIndex = 13;
+            this.labelKeep5.Text = "Keep";
+            this.labelKeep5.Visible = false;
+            // 
+            // labelKeep4
+            // 
+            this.labelKeep4.AutoSize = true;
+            this.labelKeep4.Location = new System.Drawing.Point(422, 144);
+            this.labelKeep4.Name = "labelKeep4";
+            this.labelKeep4.Size = new System.Drawing.Size(41, 17);
+            this.labelKeep4.TabIndex = 12;
+            this.labelKeep4.Text = "Keep";
+            this.labelKeep4.Visible = false;
+            // 
+            // labelKeep3
+            // 
+            this.labelKeep3.AutoSize = true;
+            this.labelKeep3.Location = new System.Drawing.Point(297, 144);
+            this.labelKeep3.Name = "labelKeep3";
+            this.labelKeep3.Size = new System.Drawing.Size(41, 17);
+            this.labelKeep3.TabIndex = 11;
+            this.labelKeep3.Text = "Keep";
+            this.labelKeep3.Visible = false;
+            // 
+            // labelKeep2
+            // 
+            this.labelKeep2.AutoSize = true;
+            this.labelKeep2.Location = new System.Drawing.Point(178, 144);
+            this.labelKeep2.Name = "labelKeep2";
+            this.labelKeep2.Size = new System.Drawing.Size(41, 17);
+            this.labelKeep2.TabIndex = 10;
+            this.labelKeep2.Text = "Keep";
+            this.labelKeep2.Visible = false;
+            // 
+            // labelKeep1
+            // 
+            this.labelKeep1.AutoSize = true;
+            this.labelKeep1.Location = new System.Drawing.Point(60, 144);
+            this.labelKeep1.Name = "labelKeep1";
+            this.labelKeep1.Size = new System.Drawing.Size(41, 17);
+            this.labelKeep1.TabIndex = 9;
+            this.labelKeep1.Text = "Keep";
+            this.labelKeep1.Visible = false;
+            // 
+            // buttonRoll
+            // 
+            this.buttonRoll.Location = new System.Drawing.Point(15, 194);
+            this.buttonRoll.Name = "buttonRoll";
+            this.buttonRoll.Size = new System.Drawing.Size(149, 42);
+            this.buttonRoll.TabIndex = 5;
+            this.buttonRoll.Text = "Roll";
+            this.buttonRoll.UseVisualStyleBackColor = true;
+            this.buttonRoll.Click += new System.EventHandler(this.ButtonRoll_Click);
+            // 
             // groupBoxScore
             // 
             this.groupBoxScore.Controls.Add(this.label17);
@@ -207,15 +268,311 @@
             this.groupBoxScore.TabIndex = 6;
             this.groupBoxScore.TabStop = false;
             // 
-            // buttonRoll
+            // label17
             // 
-            this.buttonRoll.Location = new System.Drawing.Point(15, 194);
-            this.buttonRoll.Name = "buttonRoll";
-            this.buttonRoll.Size = new System.Drawing.Size(149, 42);
-            this.buttonRoll.TabIndex = 5;
-            this.buttonRoll.Text = "Roll";
-            this.buttonRoll.UseVisualStyleBackColor = true;
-            this.buttonRoll.Click += new System.EventHandler(this.ButtonRoll_Click);
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(561, 138);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(60, 17);
+            this.label17.TabIndex = 36;
+            this.label17.Text = "Chance:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(565, 105);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(64, 17);
+            this.label16.TabIndex = 35;
+            this.label16.Text = "Yahtzee:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(544, 72);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 17);
+            this.label15.TabIndex = 34;
+            this.label15.Text = "Lg. Straight:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(540, 39);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(89, 17);
+            this.label14.TabIndex = 33;
+            this.label14.Text = "Sm. Straight:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(338, 105);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(79, 17);
+            this.label13.TabIndex = 32;
+            this.label13.Text = "Full House:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(338, 72);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(78, 17);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "4 of a kind:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(338, 39);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(78, 17);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "3 of a kind:";
+            // 
+            // buttonSetChance
+            // 
+            this.buttonSetChance.Location = new System.Drawing.Point(635, 133);
+            this.buttonSetChance.Name = "buttonSetChance";
+            this.buttonSetChance.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetChance.TabIndex = 29;
+            this.buttonSetChance.Text = "Set";
+            this.buttonSetChance.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetYahtzee
+            // 
+            this.buttonSetYahtzee.Location = new System.Drawing.Point(635, 100);
+            this.buttonSetYahtzee.Name = "buttonSetYahtzee";
+            this.buttonSetYahtzee.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetYahtzee.TabIndex = 28;
+            this.buttonSetYahtzee.Text = "Set";
+            this.buttonSetYahtzee.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetFullHouse
+            // 
+            this.buttonSetFullHouse.Location = new System.Drawing.Point(422, 100);
+            this.buttonSetFullHouse.Name = "buttonSetFullHouse";
+            this.buttonSetFullHouse.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetFullHouse.TabIndex = 27;
+            this.buttonSetFullHouse.Text = "Set";
+            this.buttonSetFullHouse.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetLgStraight
+            // 
+            this.buttonSetLgStraight.Location = new System.Drawing.Point(635, 67);
+            this.buttonSetLgStraight.Name = "buttonSetLgStraight";
+            this.buttonSetLgStraight.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetLgStraight.TabIndex = 26;
+            this.buttonSetLgStraight.Text = "Set";
+            this.buttonSetLgStraight.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetQuad
+            // 
+            this.buttonSetQuad.Location = new System.Drawing.Point(422, 67);
+            this.buttonSetQuad.Name = "buttonSetQuad";
+            this.buttonSetQuad.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetQuad.TabIndex = 25;
+            this.buttonSetQuad.Text = "Set";
+            this.buttonSetQuad.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetSmStraight
+            // 
+            this.buttonSetSmStraight.Location = new System.Drawing.Point(635, 34);
+            this.buttonSetSmStraight.Name = "buttonSetSmStraight";
+            this.buttonSetSmStraight.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetSmStraight.TabIndex = 24;
+            this.buttonSetSmStraight.Text = "Set";
+            this.buttonSetSmStraight.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetTrip
+            // 
+            this.buttonSetTrip.Location = new System.Drawing.Point(422, 34);
+            this.buttonSetTrip.Name = "buttonSetTrip";
+            this.buttonSetTrip.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetTrip.TabIndex = 23;
+            this.buttonSetTrip.Text = "Set";
+            this.buttonSetTrip.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(157, 126);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(45, 17);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Sixes:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(157, 94);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(48, 17);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Fours:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(157, 61);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 17);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "Twos:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 126);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(45, 17);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Fives:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 94);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 17);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "Threes:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 61);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 17);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Aces:";
+            // 
+            // buttonSetSixes
+            // 
+            this.buttonSetSixes.Location = new System.Drawing.Point(208, 122);
+            this.buttonSetSixes.Name = "buttonSetSixes";
+            this.buttonSetSixes.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetSixes.TabIndex = 16;
+            this.buttonSetSixes.Text = "Set Sixes";
+            this.buttonSetSixes.UseVisualStyleBackColor = true;
+            this.buttonSetSixes.Click += new System.EventHandler(this.ButtonSetSixes_Click);
+            // 
+            // buttonSetFives
+            // 
+            this.buttonSetFives.Location = new System.Drawing.Point(64, 121);
+            this.buttonSetFives.Name = "buttonSetFives";
+            this.buttonSetFives.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetFives.TabIndex = 15;
+            this.buttonSetFives.Text = "Set Fives";
+            this.buttonSetFives.UseVisualStyleBackColor = true;
+            this.buttonSetFives.Click += new System.EventHandler(this.ButtonSetFives_Click);
+            // 
+            // buttonSetFours
+            // 
+            this.buttonSetFours.Location = new System.Drawing.Point(209, 89);
+            this.buttonSetFours.Name = "buttonSetFours";
+            this.buttonSetFours.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetFours.TabIndex = 14;
+            this.buttonSetFours.Text = "Set Fours";
+            this.buttonSetFours.UseVisualStyleBackColor = true;
+            this.buttonSetFours.Click += new System.EventHandler(this.ButtonSetFours_Click);
+            // 
+            // buttonSetThrees
+            // 
+            this.buttonSetThrees.Location = new System.Drawing.Point(64, 88);
+            this.buttonSetThrees.Name = "buttonSetThrees";
+            this.buttonSetThrees.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetThrees.TabIndex = 13;
+            this.buttonSetThrees.Text = "Set Threes";
+            this.buttonSetThrees.UseVisualStyleBackColor = true;
+            this.buttonSetThrees.Click += new System.EventHandler(this.ButtonSetThrees_Click);
+            // 
+            // buttonSetTwos
+            // 
+            this.buttonSetTwos.Location = new System.Drawing.Point(209, 56);
+            this.buttonSetTwos.Name = "buttonSetTwos";
+            this.buttonSetTwos.Size = new System.Drawing.Size(90, 27);
+            this.buttonSetTwos.TabIndex = 12;
+            this.buttonSetTwos.Text = "Set Twos";
+            this.buttonSetTwos.UseVisualStyleBackColor = true;
+            this.buttonSetTwos.Click += new System.EventHandler(this.ButtonSetTwos_Click);
+            // 
+            // labelGameTotal
+            // 
+            this.labelGameTotal.AutoSize = true;
+            this.labelGameTotal.Location = new System.Drawing.Point(466, 223);
+            this.labelGameTotal.Name = "labelGameTotal";
+            this.labelGameTotal.Size = new System.Drawing.Size(46, 17);
+            this.labelGameTotal.TabIndex = 11;
+            this.labelGameTotal.Text = "label8";
+            this.labelGameTotal.Visible = false;
+            // 
+            // labelLowerTotal
+            // 
+            this.labelLowerTotal.AutoSize = true;
+            this.labelLowerTotal.Location = new System.Drawing.Point(466, 189);
+            this.labelLowerTotal.Name = "labelLowerTotal";
+            this.labelLowerTotal.Size = new System.Drawing.Size(46, 17);
+            this.labelLowerTotal.TabIndex = 10;
+            this.labelLowerTotal.Text = "label7";
+            this.labelLowerTotal.Visible = false;
+            // 
+            // labelBonus
+            // 
+            this.labelBonus.AutoSize = true;
+            this.labelBonus.Location = new System.Drawing.Point(182, 223);
+            this.labelBonus.Name = "labelBonus";
+            this.labelBonus.Size = new System.Drawing.Size(46, 17);
+            this.labelBonus.TabIndex = 9;
+            this.labelBonus.Text = "label6";
+            this.labelBonus.Visible = false;
+            // 
+            // labelUpperTotal
+            // 
+            this.labelUpperTotal.AutoSize = true;
+            this.labelUpperTotal.Location = new System.Drawing.Point(182, 189);
+            this.labelUpperTotal.Name = "labelUpperTotal";
+            this.labelUpperTotal.Size = new System.Drawing.Size(46, 17);
+            this.labelUpperTotal.TabIndex = 8;
+            this.labelUpperTotal.Text = "label5";
+            this.labelUpperTotal.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(356, 223);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Game Total:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(356, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Lower Total:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(64, 223);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Bonus (>62):";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(64, 189);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Upper Total:";
             // 
             // buttonSetAces
             // 
@@ -235,132 +592,6 @@
             this.buttonNewGame.TabIndex = 7;
             this.buttonNewGame.Text = "New Game";
             this.buttonNewGame.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 189);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Upper Total:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 223);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Bonus (>62):";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(356, 189);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Lower Total:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(356, 223);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 17);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Game Total:";
-            // 
-            // labelUpperTotal
-            // 
-            this.labelUpperTotal.AutoSize = true;
-            this.labelUpperTotal.Location = new System.Drawing.Point(182, 189);
-            this.labelUpperTotal.Name = "labelUpperTotal";
-            this.labelUpperTotal.Size = new System.Drawing.Size(46, 17);
-            this.labelUpperTotal.TabIndex = 8;
-            this.labelUpperTotal.Text = "label5";
-            this.labelUpperTotal.Visible = false;
-            // 
-            // labelBonus
-            // 
-            this.labelBonus.AutoSize = true;
-            this.labelBonus.Location = new System.Drawing.Point(182, 223);
-            this.labelBonus.Name = "labelBonus";
-            this.labelBonus.Size = new System.Drawing.Size(46, 17);
-            this.labelBonus.TabIndex = 9;
-            this.labelBonus.Text = "label6";
-            this.labelBonus.Visible = false;
-            // 
-            // labelLowerTotal
-            // 
-            this.labelLowerTotal.AutoSize = true;
-            this.labelLowerTotal.Location = new System.Drawing.Point(466, 189);
-            this.labelLowerTotal.Name = "labelLowerTotal";
-            this.labelLowerTotal.Size = new System.Drawing.Size(46, 17);
-            this.labelLowerTotal.TabIndex = 10;
-            this.labelLowerTotal.Text = "label7";
-            this.labelLowerTotal.Visible = false;
-            // 
-            // labelGameTotal
-            // 
-            this.labelGameTotal.AutoSize = true;
-            this.labelGameTotal.Location = new System.Drawing.Point(466, 223);
-            this.labelGameTotal.Name = "labelGameTotal";
-            this.labelGameTotal.Size = new System.Drawing.Size(46, 17);
-            this.labelGameTotal.TabIndex = 11;
-            this.labelGameTotal.Text = "label8";
-            this.labelGameTotal.Visible = false;
-            // 
-            // labelKeep1
-            // 
-            this.labelKeep1.AutoSize = true;
-            this.labelKeep1.Location = new System.Drawing.Point(60, 144);
-            this.labelKeep1.Name = "labelKeep1";
-            this.labelKeep1.Size = new System.Drawing.Size(41, 17);
-            this.labelKeep1.TabIndex = 9;
-            this.labelKeep1.Text = "Keep";
-            this.labelKeep1.Visible = false;
-            // 
-            // labelKeep2
-            // 
-            this.labelKeep2.AutoSize = true;
-            this.labelKeep2.Location = new System.Drawing.Point(178, 144);
-            this.labelKeep2.Name = "labelKeep2";
-            this.labelKeep2.Size = new System.Drawing.Size(41, 17);
-            this.labelKeep2.TabIndex = 10;
-            this.labelKeep2.Text = "Keep";
-            this.labelKeep2.Visible = false;
-            // 
-            // labelKeep3
-            // 
-            this.labelKeep3.AutoSize = true;
-            this.labelKeep3.Location = new System.Drawing.Point(297, 144);
-            this.labelKeep3.Name = "labelKeep3";
-            this.labelKeep3.Size = new System.Drawing.Size(41, 17);
-            this.labelKeep3.TabIndex = 11;
-            this.labelKeep3.Text = "Keep";
-            this.labelKeep3.Visible = false;
-            // 
-            // labelKeep4
-            // 
-            this.labelKeep4.AutoSize = true;
-            this.labelKeep4.Location = new System.Drawing.Point(422, 144);
-            this.labelKeep4.Name = "labelKeep4";
-            this.labelKeep4.Size = new System.Drawing.Size(41, 17);
-            this.labelKeep4.TabIndex = 12;
-            this.labelKeep4.Text = "Keep";
-            this.labelKeep4.Visible = false;
-            // 
-            // labelKeep5
-            // 
-            this.labelKeep5.AutoSize = true;
-            this.labelKeep5.Location = new System.Drawing.Point(546, 144);
-            this.labelKeep5.Name = "labelKeep5";
-            this.labelKeep5.Size = new System.Drawing.Size(41, 17);
-            this.labelKeep5.TabIndex = 13;
-            this.labelKeep5.Text = "Keep";
-            this.labelKeep5.Visible = false;
             // 
             // imageListDice
             // 
@@ -392,241 +623,21 @@
             this.buttonShowHand.UseVisualStyleBackColor = true;
             this.buttonShowHand.Click += new System.EventHandler(this.ButtonShowHand_Click);
             // 
-            // buttonSetTwos
+            // label18
             // 
-            this.buttonSetTwos.Location = new System.Drawing.Point(209, 56);
-            this.buttonSetTwos.Name = "buttonSetTwos";
-            this.buttonSetTwos.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetTwos.TabIndex = 12;
-            this.buttonSetTwos.Text = "Set Twos";
-            this.buttonSetTwos.UseVisualStyleBackColor = true;
-            this.buttonSetTwos.Click += new System.EventHandler(this.ButtonSetTwos_Click);
-            // 
-            // buttonSetThrees
-            // 
-            this.buttonSetThrees.Location = new System.Drawing.Point(64, 88);
-            this.buttonSetThrees.Name = "buttonSetThrees";
-            this.buttonSetThrees.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetThrees.TabIndex = 13;
-            this.buttonSetThrees.Text = "Set Threes";
-            this.buttonSetThrees.UseVisualStyleBackColor = true;
-            this.buttonSetThrees.Click += new System.EventHandler(this.ButtonSetThrees_Click);
-            // 
-            // buttonSetFours
-            // 
-            this.buttonSetFours.Location = new System.Drawing.Point(209, 89);
-            this.buttonSetFours.Name = "buttonSetFours";
-            this.buttonSetFours.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetFours.TabIndex = 14;
-            this.buttonSetFours.Text = "Set Fours";
-            this.buttonSetFours.UseVisualStyleBackColor = true;
-            this.buttonSetFours.Click += new System.EventHandler(this.ButtonSetFours_Click);
-            // 
-            // buttonSetFives
-            // 
-            this.buttonSetFives.Location = new System.Drawing.Point(64, 121);
-            this.buttonSetFives.Name = "buttonSetFives";
-            this.buttonSetFives.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetFives.TabIndex = 15;
-            this.buttonSetFives.Text = "Set Fives";
-            this.buttonSetFives.UseVisualStyleBackColor = true;
-            this.buttonSetFives.Click += new System.EventHandler(this.ButtonSetFives_Click);
-            // 
-            // buttonSetSixes
-            // 
-            this.buttonSetSixes.Location = new System.Drawing.Point(208, 122);
-            this.buttonSetSixes.Name = "buttonSetSixes";
-            this.buttonSetSixes.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetSixes.TabIndex = 16;
-            this.buttonSetSixes.Text = "Set Sixes";
-            this.buttonSetSixes.UseVisualStyleBackColor = true;
-            this.buttonSetSixes.Click += new System.EventHandler(this.ButtonSetSixes_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 61);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 17);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Aces:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 94);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 17);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Threes:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 126);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(45, 17);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "Fives:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(157, 61);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 17);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "Twos:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(157, 94);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 17);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Fours:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(157, 126);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(45, 17);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Sixes:";
-            // 
-            // buttonSetTrip
-            // 
-            this.buttonSetTrip.Location = new System.Drawing.Point(422, 34);
-            this.buttonSetTrip.Name = "buttonSetTrip";
-            this.buttonSetTrip.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetTrip.TabIndex = 23;
-            this.buttonSetTrip.Text = "Set";
-            this.buttonSetTrip.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetSmStraight
-            // 
-            this.buttonSetSmStraight.Location = new System.Drawing.Point(635, 34);
-            this.buttonSetSmStraight.Name = "buttonSetSmStraight";
-            this.buttonSetSmStraight.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetSmStraight.TabIndex = 24;
-            this.buttonSetSmStraight.Text = "Set";
-            this.buttonSetSmStraight.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetQuad
-            // 
-            this.buttonSetQuad.Location = new System.Drawing.Point(422, 67);
-            this.buttonSetQuad.Name = "buttonSetQuad";
-            this.buttonSetQuad.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetQuad.TabIndex = 25;
-            this.buttonSetQuad.Text = "Set";
-            this.buttonSetQuad.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetLgStraight
-            // 
-            this.buttonSetLgStraight.Location = new System.Drawing.Point(635, 67);
-            this.buttonSetLgStraight.Name = "buttonSetLgStraight";
-            this.buttonSetLgStraight.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetLgStraight.TabIndex = 26;
-            this.buttonSetLgStraight.Text = "Set";
-            this.buttonSetLgStraight.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetFullHouse
-            // 
-            this.buttonSetFullHouse.Location = new System.Drawing.Point(422, 100);
-            this.buttonSetFullHouse.Name = "buttonSetFullHouse";
-            this.buttonSetFullHouse.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetFullHouse.TabIndex = 27;
-            this.buttonSetFullHouse.Text = "Set";
-            this.buttonSetFullHouse.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetYahtzee
-            // 
-            this.buttonSetYahtzee.Location = new System.Drawing.Point(635, 100);
-            this.buttonSetYahtzee.Name = "buttonSetYahtzee";
-            this.buttonSetYahtzee.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetYahtzee.TabIndex = 28;
-            this.buttonSetYahtzee.Text = "Set";
-            this.buttonSetYahtzee.UseVisualStyleBackColor = true;
-            // 
-            // buttonSetChance
-            // 
-            this.buttonSetChance.Location = new System.Drawing.Point(635, 133);
-            this.buttonSetChance.Name = "buttonSetChance";
-            this.buttonSetChance.Size = new System.Drawing.Size(90, 27);
-            this.buttonSetChance.TabIndex = 29;
-            this.buttonSetChance.Text = "Set";
-            this.buttonSetChance.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(338, 39);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(78, 17);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "3 of a kind:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(338, 72);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(78, 17);
-            this.label12.TabIndex = 31;
-            this.label12.Text = "4 of a kind:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(338, 105);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(79, 17);
-            this.label13.TabIndex = 32;
-            this.label13.Text = "Full House:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(540, 39);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(89, 17);
-            this.label14.TabIndex = 33;
-            this.label14.Text = "Sm. Straight:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(544, 72);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(85, 17);
-            this.label15.TabIndex = 34;
-            this.label15.Text = "Lg. Straight:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(565, 105);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(64, 17);
-            this.label16.TabIndex = 35;
-            this.label16.Text = "Yahtzee:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(561, 138);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(60, 17);
-            this.label17.TabIndex = 36;
-            this.label17.Text = "Chance:";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(12, 550);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(160, 17);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "Created by M. Lenselink";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(877, 555);
+            this.ClientSize = new System.Drawing.Size(877, 576);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.buttonShowHand);
             this.Controls.Add(this.labelCurrentHand);
             this.Controls.Add(this.buttonNewGame);
@@ -702,6 +713,7 @@
         private System.Windows.Forms.Button buttonSetQuad;
         private System.Windows.Forms.Button buttonSetSmStraight;
         private System.Windows.Forms.Button buttonSetTrip;
+        private System.Windows.Forms.Label label18;
     }
 }
 
